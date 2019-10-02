@@ -5,10 +5,12 @@ int main()
 {
     char op;
     float num1, num2;
+    
     cout << "Enter two mumbers: ";
     cin >> num1 >> num2;
     cout << "Enter operation to perform [+, -, *, /] : ";
     cin >> op;
+    
     switch(op)
     {
         case '+':
@@ -28,5 +30,6 @@ int main()
             cout << "Error! operator is not correct";
             break;
     }
+    
     return 0;
 }
