@@ -4,6 +4,7 @@ char **b;
 int **C,m,n;
 
 //using dynamic programming
+
 void LCS(string s1,string s2)
 {
 	m=s1.length();
@@ -40,6 +41,8 @@ void LCS(string s1,string s2)
 		}
 	}
 }
+
+
 void disp(string s1,int i,int j)
 {
 	if(i==0||j==0)
@@ -54,6 +57,8 @@ void disp(string s1,int i,int j)
 	else if(b[i][j]=='-')
 	disp(s1,i,j-1);
 }
+
+
 int main()
 {
 	string s1,s2;
