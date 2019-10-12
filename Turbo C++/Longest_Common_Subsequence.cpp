@@ -2,6 +2,8 @@
 using namespace std;
 char **b;
 int **C,m,n;
+
+//using dynamic programming
 void LCS(string s1,string s2)
 {
 	m=s1.length();
